@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import './App.css'
+import Contact from './sections/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,9 +16,7 @@ function App() {
 
           <Projects />
 
-          <section id='contact'>
-            <h2>this is the contact </h2>
-          </section>
+          <Contact />
         </main>
      </>
   )
