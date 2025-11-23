@@ -1,17 +1,17 @@
 import { useState, useRef } from "react";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 
-import frame1 from '../assets/codeframes/frame1.png';
-import frame2 from '../assets/codeframes/frame2.png';
-import frame3 from '../assets/codeframes/frame3.png';
-import frame4 from '../assets/codeframes/frame4.png';
-import frame5 from '../assets/codeframes/frame5.png';
-import frame6 from '../assets/codeframes/frame6.png';
-import frame7 from '../assets/codeframes/frame7.png';
-import frame8 from '../assets/codeframes/frame8.png';
-import frame9 from '../assets/codeframes/frame9.png';
-import frame10 from '../assets/codeframes/frame10.png';
-import frame11 from '../assets/codeframes/frame11.png';
+import frame1 from '../assets/codeframes/frame1.webp';
+import frame2 from '../assets/codeframes/frame2.webp';
+import frame3 from '../assets/codeframes/frame3.webp';
+import frame4 from '../assets/codeframes/frame4.webp';
+import frame5 from '../assets/codeframes/frame5.webp';
+import frame6 from '../assets/codeframes/frame6.webp';
+import frame7 from '../assets/codeframes/frame7.webp';
+import frame8 from '../assets/codeframes/frame8.webp';
+import frame9 from '../assets/codeframes/frame9.webp';
+import frame10 from '../assets/codeframes/frame10.webp';
+import frame11 from '../assets/codeframes/frame11.webp';
 
 const frames = [frame1, frame2, frame3, frame4, frame5, frame6, frame7, frame8, frame9, frame10, frame11];
 
