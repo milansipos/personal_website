@@ -3,7 +3,7 @@ import { projects } from "../data/projects";
 const Projects = () => {
     return (
         <section id="projects">
-            <h2>Selected Work</h2>
+            <h2>Personal Projects</h2>
       
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
                 {projects.map((project) => (

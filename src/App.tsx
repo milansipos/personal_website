@@ -1,13 +1,13 @@
-import { useState } from 'react'
+
 import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import './App.css'
 import Contact from './sections/Contact'
 import About from './sections/About'
+import CodeScrubber from './components/Scrubber'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
      <>
@@ -15,8 +15,10 @@ function App() {
         <main>
           <Hero />
 
+          <h2></h2>
+
           {/* TODO: add gif scrolling effect */}
-          <About />
+          <CodeScrubber />
 
           <Projects />
 
