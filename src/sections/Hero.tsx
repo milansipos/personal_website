@@ -1,14 +1,19 @@
 const Hero = () => {
     return (
-        <section id ="home">
-            <h1>Hi im Milan Sipos</h1>
-            <p style={{ maxWidth: '600px' }}>
-                I am a software developer...
+        <section id ="home" style={{ display: 'flex', alignItems:'center'}}>
+            <h1>Hi, I'm Milán Sipos</h1>
+            <p style={{ maxWidth: '600px'}}>
+                Studying CS at @ TUM | Software Developer (Robotics, C#) @ BlueCatBio
             </p>
-            <div style={{ marginTop : '2rem' }}>
+            <div style={{ marginTop : '2rem', display:'flex', gap:'1.5rem', justifyContent:'center'}}>
+                <a href="#about">
+                    <button className="herobutton">
+                        <span>More about me</span>
+                    </button>
+                </a>
                 <a href="#projects">
-                    <button style={{ padding: '12px 24px', fontSize: '1rem', background: '#646cff', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                        View my work
+                    <button className="herobutton">
+                        <span className="text">View my Work</span>
                     </button>
                 </a>
             </div>

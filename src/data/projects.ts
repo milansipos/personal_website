@@ -39,7 +39,7 @@ export const projects: Project[] = [
     {
         id: 6,
         title: "More coming soon...",
-        description: "I'm always actively working on something on the site, so there is more to come",
+        description: "I'm always actively working on something on the side, so there is more to come",
         tags: ["Future"],
         link: "https://github.com/milansipos"
     },
