@@ -49,8 +49,8 @@ const CodeScrubber = () => {
         <img 
           src={currentFrame} 
           style={{ 
-            width: "80%",
-            maxWidth: "1200px",
+            width: "90%",
+            maxWidth: "1000px",
             borderRadius: "24px",
             boxShadow: "0 25px 50px -12px rgba(51, 0, 169, 0.5)",
             transition: "transform 0.1s linear"
