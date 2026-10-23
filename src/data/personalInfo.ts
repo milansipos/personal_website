@@ -6,7 +6,7 @@ export const personalInfo = {
     Course: "Computer Science",
     Job: [
         "Software Developer",
-        "C#, TS, Node, Robotics",
+        "C#, TS, Robotics",
         "BlueCatBio GmbH"
     ],
     Interests: [
