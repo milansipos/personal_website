@@ -27,8 +27,6 @@ The site has several HTML entry points (Vite multi-page setup, see `vite.config.
 - `index.html`: the main page (`src/main.tsx`)
 - `impressum/index.html`, `datenschutz/index.html`, `404.html`: extra pages sharing `src/subpages.tsx`
 
-Fonts are self-hosted via `@fontsource`, so the site makes no requests to third parties.
-
 ## Deployment
 
 Every push to `main` builds and deploys the site via GitHub Actions (`.github/workflows/deploy.yml`).
