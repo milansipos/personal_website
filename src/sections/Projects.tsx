@@ -21,7 +21,7 @@ const Projects = () => {
                                 ))}
                             </div>
 
-                            {project.link && <span className="project-link gradient-text">View Code →</span>}
+                            {project.link && <span className="project-link">View Code →</span>}
                         </a>
                     </Reveal>
                 ))}

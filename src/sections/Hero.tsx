@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section id ="home" style={{ display: 'flex', alignItems:'center'}}>
             <Reveal>
-                <h1>Hi, I'm <span className="gradient-text">Milán Sipos</span></h1>
+                <h1>Hi, I'm <span className="hero-name">Milán Sipos</span></h1>
             </Reveal>
             <Reveal delay={0.1}>
                 <p className="hero-subtitle">
