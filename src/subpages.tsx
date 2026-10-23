@@ -6,9 +6,11 @@ import '@fontsource/inter/700.css'
 import './index.css'
 import Impressum from './pages/Impressum.tsx'
 import Privacy from './pages/Privacy.tsx'
+import NotFound from './pages/NotFound.tsx'
 
-// shared entry for /impressum/ and /datenschutz/, the page is picked via <body data-page>
-const page = document.body.dataset.page === 'impressum' ? <Impressum /> : <Privacy />
+// shared entry for the impressum, datenschutz and 404 pages, picked via <body data-page>
+const pages = { impressum: <Impressum />, datenschutz: <Privacy />, '404': <NotFound /> }
+const page = pages[document.body.dataset.page as keyof typeof pages] ?? <NotFound />
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
