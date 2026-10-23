@@ -79,3 +79,14 @@ nav a:hover { color: #646cff; }
     padding: 16px 24px;
   }
 }
+
+/* legal pages (Impressum, Datenschutz) */
+.legal { max-width: 760px; margin: 0 auto; padding: 3rem 20px 5rem; text-align: left; overflow-wrap: break-word; hyphens: auto; }
+.legal h1 { font-size: 2.5rem; margin-top: 3rem; }
+.legal h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; }
+.legal h3 { font-size: 1.15rem; margin: 1.8rem 0 0.5rem; }
+.legal h4 { font-size: 1rem; margin: 1.2rem 0 0.3rem; }
+.legal p, .legal li { font-size: 1rem; line-height: 1.6; color: #aaa; }
+.legal a { color: #a5a9ff; }
+.legal-back { text-decoration: none; }
+.legal-links { margin-top: 3rem; }
