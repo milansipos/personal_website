@@ -8,7 +8,7 @@ import {
   VscWarning, VscBroadcast, VscBell
 } from "react-icons/vsc";
 import { personalInfo } from "../data/personalInfo";
-import "./Scrubber.css";
+import "./About.css";
 
 type TokenKind = "key" | "string" | "colon" | "brace" | "bracket" | "plain";
 type Token = { text: string; kind: TokenKind };
@@ -56,7 +56,7 @@ const typedLines = (count: number): Token[][] => {
 
 const VISIBLE_LINES = source.split("\n").length + 1;
 
-const CodeScrubber = () => {
+const About = () => {
   const targetRef = useRef<HTMLDivElement>(null);
   const [typedCount, setTypedCount] = useState(0);
 
@@ -159,4 +159,4 @@ const CodeScrubber = () => {
   );
 };
 
-export default CodeScrubber;
+export default About;

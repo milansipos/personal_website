@@ -2,9 +2,8 @@
 import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
 import Projects from './sections/Projects'
-import './App.css'
 import Contact from './sections/Contact'
-import CodeScrubber from './components/Scrubber'
+import About from './sections/About'
 import Footer from './components/Footer'
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
         <main>
           <Hero />
 
-          <CodeScrubber />
+          <About />
 
           <Projects />
 
