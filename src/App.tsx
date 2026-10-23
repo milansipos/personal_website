@@ -5,6 +5,7 @@ import Projects from './sections/Projects'
 import './App.css'
 import Contact from './sections/Contact'
 import CodeScrubber from './components/Scrubber'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
 
           <Contact />
         </main>
+        <Footer />
      </>
   )
 }
