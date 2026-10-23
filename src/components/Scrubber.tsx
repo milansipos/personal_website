@@ -41,7 +41,7 @@ const CodeScrubber = () => {
   });
 
   return (
-    <div ref={targetRef} style={{ height: "270vh", position: "relative" }}>
+    <div ref={targetRef} style={{ height: "270vh", position: "relative" }} id='about'>
       
       <div style={{ 
         position: "sticky", 
