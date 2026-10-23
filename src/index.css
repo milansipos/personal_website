@@ -100,6 +100,9 @@ nav { align-items: center; }
 .legal-back { text-decoration: none; }
 .legal-links { margin-top: 3rem; }
 
+.contact-icon svg { fill: url(#brand-gradient); transition: transform 0.2s; }
+.contact-icon:hover svg { transform: translateY(-4px); }
+
 @media (max-width: 480px) {
   nav { padding: 1rem; gap: 1rem; }
 }
