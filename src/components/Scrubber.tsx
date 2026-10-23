@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 
 import frame1 from '../assets/codeframes/frame1.webp';
@@ -19,6 +19,13 @@ const CodeScrubber = () => {
   const targetRef = useRef<HTMLDivElement>(null);
   const [currentFrame, setCurrentFrame] = useState(frames[0]);
 
+  // preload all frames so scrolling doesn't flicker on first pass
+  useEffect(() => {
+    frames.forEach((src) => {
+      new Image().src = src;
+    });
+  }, []);
+
   const { scrollYProgress } = useScroll({
     target: targetRef,
     offset: ["start start", "end end"],
@@ -34,7 +41,7 @@ const CodeScrubber = () => {
   });
 
   return (
-    <div ref={targetRef} style={{ height: "270vh", position: "relative" }} id='about'>
+    <div ref={targetRef} style={{ height: "270vh", position: "relative" }}>
       
       <div style={{ 
         position: "sticky", 
@@ -48,6 +55,7 @@ const CodeScrubber = () => {
         
         <img 
           src={currentFrame} 
+          alt="Code editor filling in a JSON file with info about me"
           style={{ 
             width: "90%",
             maxWidth: "1000px",

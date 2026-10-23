@@ -15,9 +15,8 @@ function App() {
         <main>
           <Hero />
 
-          <h2></h2>
+          <About />
 
-          {/* TODO: add gif scrolling effect */}
           <CodeScrubber />
 
           <Projects />

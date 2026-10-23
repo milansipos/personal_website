@@ -29,7 +29,7 @@ const Projects = () => {
                  </div>
                 ))}
              </div>
-             <h3 style={{ padding: '30px' }}> See more on my <a href="#contact" style={{ color:'gray' }}>GitHub Page</a>.</h3>
+             <h3 style={{ padding: '30px' }}> See more on my <a href="https://github.com/milansipos" target="_blank" rel="noopener noreferrer" style={{ color:'gray' }}>GitHub Page</a>.</h3>
          </section>
     );
 }
