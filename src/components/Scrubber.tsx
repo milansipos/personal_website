@@ -78,7 +78,7 @@ const CodeScrubber = () => {
   const currentKey = [...typedText.matchAll(/"([^"]+)":/g)].pop()?.[1];
 
   return (
-    <div ref={targetRef} style={{ height: "270vh", position: "relative" }} id='about'>
+    <div ref={targetRef} style={{ height: "360vh", position: "relative" }} id='about'>
 
       <div style={{
         position: "sticky",

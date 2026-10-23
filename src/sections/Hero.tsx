@@ -3,7 +3,7 @@ const Hero = () => {
         <section id ="home" style={{ display: 'flex', alignItems:'center'}}>
             <h1>Hi, I'm Milán Sipos</h1>
             <p style={{ maxWidth: '600px'}}>
-                Studying CS at @ TUM | Software Developer (Robotics, C#) @ BlueCatBio
+                Studying CS @ TUM | Software Developer @ BlueCatBio | CSEE
             </p>
             <div style={{ marginTop : '2rem', display:'flex', gap:'1.5rem', justifyContent:'center'}}>
                 <a href="#about" className="herobutton">
